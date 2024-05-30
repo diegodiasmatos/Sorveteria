@@ -1,0 +1,55 @@
+.Banner-gela{
+    background-image: url(../../../public/assets/banner-sobre.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.Sobrenois{
+    padding: 15px;
+   
+    text-shadow: rgb(90 91 28) 0px 61px 63px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Sobrenois .text1{
+padding-bottom: 29px;
+font-weight: bold;
+font-size: 25px;
+}
+.Sobrenois p::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+.img0sobre{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+ 
+}
+.img0sobre img{
+    height: 396px;
+}
+@media screen and (max-width:1016px) {
+    .img0sobre{
+       
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+    .img0sobre .img{
+    max-width: 70vw;
+    }
+
+    }
